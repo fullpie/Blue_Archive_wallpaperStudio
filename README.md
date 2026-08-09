@@ -42,9 +42,7 @@ BA Wallpaper Studio is a local Windows application that extracts or synchronizes
 
 ### Rendering resolution and optional 4K enhancement
 
-The wallpaper renders at Wallpaper Engine's active resolution, so 2K and 4K displays use their matching render resolution.
-
-Standard mode uses the original game textures. Optional **waifu2x 2×** doubles their width and height for clearer 4K display, but does not turn the source artwork into native 4K.
+The wallpaper follows Wallpaper Engine's active resolution. Optional **waifu2x 2×** improves clarity on 4K displays, but does not turn the source artwork into native 4K.
 
 ### Quick start
 
@@ -104,9 +102,7 @@ BA 桌布工坊是一款 Windows 本機工具，可抽取或同步 Blue Archive 
 
 ### 渲染解析度與選用的 4K 強化
 
-桌布會依 Wallpaper Engine 當下的渲染解析度即時繪製，2K 與 4K 螢幕都會使用對應的渲染解析度。
-
-一般模式使用遊戲原始貼圖；開啟 **waifu2x 2×** 會將貼圖寬高各放大兩倍，改善 4K 顯示清晰度，但不代表原始素材會變成原生 4K。
+桌布會依 Wallpaper Engine 的實際解析度繪製；可選的 **waifu2x 2×** 能改善 4K 顯示清晰度，但不會把原始素材變成原生 4K。
 
 ### 快速開始
 
@@ -166,9 +162,7 @@ BA Wallpaper Studio は、Blue Archive のホーム画面アニメーション�
 
 ### レンダリング解像度と任意の4K向け高画質化
 
-壁紙は Wallpaper Engine の実際のレンダリング解像度で描画され、2Kと4Kの画面ではそれぞれ対応する解像度が使用されます。
-
-通常はゲームの元テクスチャを使用します。**waifu2x 2×** は幅と高さを2倍にして4K表示時の鮮明さを改善しますが、元素材をネイティブ4Kに変換するものではありません。
+壁紙は Wallpaper Engine の実際の解像度で描画されます。任意の **waifu2x 2×** は4K表示を鮮明にしますが、元素材をネイティブ4Kに変換するものではありません。
 
 ### クイックスタート
 
@@ -203,4 +197,3 @@ BA Wallpaper Studio は非公式のファンメイドツールです。Yostar、
 Blue Archive および関連するゲーム素材の権利は、それぞれの権利者に帰属します。本リポジトリおよび配布パッケージにはゲーム素材は含まれていません。
 
 本アプリケーションは個人・非営利目的で無料提供されています。アプリケーションの再販売、有料での再配布、抽出したゲームリソースの配布はおやめください。
-
