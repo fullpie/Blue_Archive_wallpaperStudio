@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/ba-wallpaper-studio-main.png" alt="BA Wallpaper Studio latest interface" width="100%">
+  <img src="docs/images/ba-wallpaper-studio-main.jpg" alt="BA Wallpaper Studio latest interface" width="100%">
 </p>
 
 <p align="center">
