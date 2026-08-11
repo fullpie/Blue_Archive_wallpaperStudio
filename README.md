@@ -26,10 +26,15 @@
 
 BA Wallpaper Studio is a local Windows application that extracts or synchronizes Blue Archive lobby animations, previews their in-game composition, and installs them as Wallpaper Engine wallpapers.
 
+### Resource sources
+
+- **Local extraction:** Read the required lobby Live2D assets from an installed Blue Archive JP PC client without modifying the game files.
+- **Official CDN synchronization:** Download only the required lobby Live2D assets from Blue Archive's official CDN without launching the game.
+
+Both sources use the same loading, preview, composition adjustment, and Wallpaper Engine export workflow. CDN synchronization requires an internet connection, but no Blue Archive account, login, or player token. It is an unofficial integration based on the current distribution protocol—not an officially guaranteed stable API—so upstream changes may temporarily suspend online synchronization until the tool is updated.
+
 ### Features
 
-- Extract lobby animation resources from an installed Blue Archive JP PC client.
-- Optionally synchronize only the required lobby resources without installing or launching the game.
 - Preview animations and restore the original in-game lobby composition.
 - Supports 16:9, 16:10, 3:4, and custom output ratios.
 - Fine-tune scale and horizontal or vertical position before export.
@@ -49,8 +54,8 @@ The wallpaper follows Wallpaper Engine's active resolution. Optional **waifu2x 2
 1. Download the latest package from [GitHub Releases](https://github.com/fullpie/BAwallpaperStudio/releases/latest).
 2. Extract the complete package to a writable folder.
 3. Run `BA桌布工坊.exe`.
-4. Select an installed Blue Archive folder, or use online resource synchronization.
-5. Select a character and extract the required resources.
+4. Select an installed Blue Archive folder for local extraction, or use official CDN synchronization.
+5. Select a character and load the required resources.
 6. Preview the animation and adjust the composition if needed.
 7. Select **Create and install wallpaper**.
 8. Confirm the result in the Wallpaper Engine test window before applying it to the desktop.
@@ -86,10 +91,15 @@ The application is provided free for personal, non-commercial use. Do not resell
 
 BA 桌布工坊是一款 Windows 本機工具，可抽取或同步 Blue Archive 首頁動畫，預覽遊戲內原始構圖，並建立及安裝 Wallpaper Engine 動態桌布。
 
+### 資源取得方式
+
+- **本機抽取：** 從已安裝的 Blue Archive JP PC 版讀取所需的首頁 Live2D 資源，不會修改遊戲檔案。
+- **官方 CDN 同步：** 不必開啟遊戲，直接從 Blue Archive 官方 CDN 下載所需的首頁 Live2D 資源。
+
+兩種來源共用相同的載入、預覽、構圖調整與 Wallpaper Engine 匯出流程。CDN 同步需要網路，但不需要 Blue Archive 帳號、登入資料或玩家 Token。此功能是依目前資源配發協定實作的非官方整合，並非官方保證穩定的 API；若上游協定變更，線上同步可能暫時停用，直到程式更新。
+
 ### 主要功能
 
-- 從已安裝的 Blue Archive JP PC 版抽取首頁動畫資源。
-- 不安裝、不啟動遊戲，也能選擇只同步所需的首頁資源。
 - 預覽動畫並還原遊戲首頁原始構圖。
 - 支援 16:9、16:10、3:4 及自訂輸出比例。
 - 匯出前可微調縮放、水平與垂直位置。
@@ -109,8 +119,8 @@ BA 桌布工坊是一款 Windows 本機工具，可抽取或同步 Blue Archive 
 1. 從 [GitHub Releases](https://github.com/fullpie/BAwallpaperStudio/releases/latest) 下載最新程式包。
 2. 將完整程式包解壓縮至可寫入的資料夾。
 3. 執行 `BA桌布工坊.exe`。
-4. 指定已安裝的 Blue Archive 資料夾，或使用線上資源同步。
-5. 選擇角色並抽取所需資源。
+4. 指定已安裝的 Blue Archive 資料夾進行本機抽取，或使用官方 CDN 同步。
+5. 選擇角色並載入所需資源。
 6. 預覽動畫，需要時調整構圖。
 7. 按下「建立並安裝桌布」。
 8. 在 Wallpaper Engine 測試視窗確認後，再套用至桌面。
@@ -146,10 +156,15 @@ Blue Archive 及相關遊戲素材的權利歸原權利人所有。本倉庫及�
 
 BA Wallpaper Studio は、Blue Archive のホーム画面アニメーションを抽出または同期し、ゲーム内の元の構図を確認して Wallpaper Engine にインストールできる Windows 向けローカルツールです。
 
+### リソースの取得方法
+
+- **ローカル抽出：** インストール済みの Blue Archive JP PC 版から、必要なホーム画面の Live2D リソースをゲームファイルを変更せずに読み込みます。
+- **公式CDN同期：** ゲームを起動せず、Blue Archive の公式CDNから必要なホーム画面の Live2D リソースだけをダウンロードします。
+
+どちらの取得方法でも、その後は同じ読み込み、プレビュー、構図調整、Wallpaper Engine へのエクスポート手順を使用します。CDN同期にはインターネット接続が必要ですが、Blue Archive のアカウント、ログイン情報、プレイヤートークンは不要です。この機能は現在の配信プロトコルに基づく非公式連携であり、公式に安定性が保証されたAPIではありません。上流の仕様が変更された場合、ツールが更新されるまでオンライン同期が一時的に利用できなくなることがあります。
+
 ### 主な機能
 
-- インストール済みの Blue Archive JP PC 版からホーム画面のアニメーションを抽出。
-- ゲームをインストール・起動せず、必要なホーム画面リソースだけを同期可能。
 - アニメーションをプレビューし、ゲーム内ホーム画面の元の構図を再現。
 - 16:9、16:10、3:4、カスタム比率に対応。
 - エクスポート前に拡大率、水平位置、垂直位置を微調整可能。
@@ -169,8 +184,8 @@ BA Wallpaper Studio は、Blue Archive のホーム画面アニメーション�
 1. [GitHub Releases](https://github.com/fullpie/BAwallpaperStudio/releases/latest) から最新版をダウンロードします。
 2. パッケージ全体を書き込み可能なフォルダーへ展開します。
 3. `BA桌布工坊.exe` を起動します。
-4. インストール済みの Blue Archive フォルダーを指定するか、オンラインリソース同期を使用します。
-5. キャラクターを選択し、必要なリソースを抽出します。
+4. インストール済みの Blue Archive フォルダーを指定してローカル抽出するか、公式CDN同期を使用します。
+5. キャラクターを選択し、必要なリソースを読み込みます。
 6. アニメーションを確認し、必要に応じて構図を調整します。
 7. 「壁紙を作成してインストール」を選択します。
 8. Wallpaper Engine のテスト画面で確認してからデスクトップに適用します。
@@ -197,3 +212,4 @@ BA Wallpaper Studio は非公式のファンメイドツールです。Yostar、
 Blue Archive および関連するゲーム素材の権利は、それぞれの権利者に帰属します。本リポジトリおよび配布パッケージにはゲーム素材は含まれていません。
 
 本アプリケーションは個人・非営利目的で無料提供されています。アプリケーションの再販売、有料での再配布、抽出したゲームリソースの配布はおやめください。
+
