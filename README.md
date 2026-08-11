@@ -60,6 +60,8 @@ The wallpaper follows Wallpaper Engine's active resolution. Optional **waifu2x 2
 7. Select **Create and install wallpaper**.
 8. Confirm the result in the Wallpaper Engine test window before applying it to the desktop.
 
+> **v0.8.0:** Fully extract the package to a short local path such as `C:\BAWallpaperStudio` before online synchronization. Do not run it inside the ZIP or from a deeply nested cloud-synced folder.
+
 ### Requirements
 
 - Windows 10 or Windows 11
@@ -125,6 +127,8 @@ BA 桌布工坊是一款 Windows 本機工具，可抽取或同步 Blue Archive 
 7. 按下「建立並安裝桌布」。
 8. 在 Wallpaper Engine 測試視窗確認後，再套用至桌面。
 
+> **v0.8.0 注意事項：** 使用線上同步前，請將程式完整解壓到 `C:\BAWallpaperStudio` 之類的本機短路徑；不要直接在 ZIP 內執行，也不建議放在很深的 OneDrive 等雲端同步資料夾。
+
 ### 系統需求
 
 - Windows 10 或 Windows 11
@@ -189,6 +193,8 @@ BA Wallpaper Studio は、Blue Archive のホーム画面アニメーション�
 6. アニメーションを確認し、必要に応じて構図を調整します。
 7. 「壁紙を作成してインストール」を選択します。
 8. Wallpaper Engine のテスト画面で確認してからデスクトップに適用します。
+
+> **v0.8.0 の注意：** オンライン同期を使う前に、パッケージ全体を `C:\BAWallpaperStudio` などの短いローカルパスへ展開してください。ZIP 内から直接起動したり、深い階層のクラウド同期フォルダーへ置いたりしないでください。
 
 ### 動作環境
 
